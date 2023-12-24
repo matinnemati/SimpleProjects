@@ -1,0 +1,17 @@
+*, *::before, *::after{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+body{
+    width: 100%;
+    overflow-x: hidden ;
+  font-family: fantasy;
+}
+a,a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style-type: none;
+}

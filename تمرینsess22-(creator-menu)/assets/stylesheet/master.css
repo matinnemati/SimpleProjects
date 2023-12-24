@@ -1,0 +1,33 @@
+.tools {
+  display: flex;
+  gap: 1vh;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.tools * {
+  padding: 1vh !important;
+  border: 0;
+  border-radius: 10px;
+  background-color: aliceblue;
+  transition: 0.2s;
+}
+.tools *:hover {
+  background-color: azure;
+}
+
+nav {
+  margin-top: 5vh !important;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+nav button {
+  background-color: aliceblue;
+  border: 0;
+  border-radius: 5px;
+  width: 8vh;
+  height: 8vh;
+  font-size: 5vh;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=master.css.map */
